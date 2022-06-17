@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CICA.UpdateEvent">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="CICA.Event" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.094" />
+        <Point X="6.5" Y="5.062" />
+        <Point X="7.75" Y="5.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>UpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.Program">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.Menu">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.EventDatabase">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.Event">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAiAMAAAAIAgAAEIAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CICA.DisplayEvents">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <InheritanceLine Type="CICA.Event" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="2.377" />
+        <Point X="7.49" Y="2.377" />
+        <Point X="7.49" Y="1.628" />
+        <Point X="7.75" Y="1.628" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DisplayEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.DeleteEvent">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="CICA.Event" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="3.438" />
+        <Point X="7.75" Y="3.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>DeleteEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.CreateEvent">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.CalIntEvent">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAoAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalIntEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CICA.CalExtEvent">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="CICA.Event" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="2.625" />
+        <Point X="5.51" Y="2.625" />
+        <Point X="5.51" Y="4.125" />
+        <Point X="5.25" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CalExtEvent .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CICA.ICalEventSave">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICalEventSave.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CICA.ICalEventPrint">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICalEventPrint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
